@@ -9,7 +9,7 @@ start syntax Exp
     | bracket "(" Exp ")"
     > left mul: Exp "*" Exp
     > left div: Exp "/" Exp
-    > left mod: Exp "%" Exp
+    > left modulo: Exp "%" Exp
     > left sub: Exp "-" Exp
     > left add: Exp "+" Exp
     ;
